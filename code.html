@@ -16,6 +16,7 @@
         left: 50%;
         transform: translateX(-50%);
         top: 2%;
+        white-space: nowrap;
     }
     button {
         background: black;
@@ -33,19 +34,23 @@
     }
     img {
         object-fit: contain;
-        width: 900px;
+        scale: 1.12;
+        max-width: 900px;
+        width: 100%;
         background: red;
         position: absolute;
-        left: 50%;
-        top: 50%;
+        left: 59%;
+        top: 30%;
         transform: translateX(-50%) translateY(-35%);
-    }
+    }    
 </style>
 <body>
     <div id="btnCustom">
         <button type="button" onclick="location.href='index.html'">View</button>
         <button type="button" onclick="location.href='code.html'">Demo Code</button>
     </div>
-    <img src="scsCode.png" alt="CodeImages">
+    <img src="scsCode.png" alt="CodeImage1">
+    <!-- <img src="scsCode2.png" alt="CodeImage2">
+    <img src="scsCode3.png" alt="CodeImage3"> -->
 </body>
 </html>
